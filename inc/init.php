@@ -17,5 +17,9 @@ session_start();
 define("RACINE_SITE", $_SERVER['DOCUMENT_ROOT'] . '/iim/');
 define("URL", "http://" . $_SERVER['HTTP_HOST'] . "/iim/");
 
+// Définitions des constantes pour la version en ligne
+// define("RACINE_SITE", $_SERVER['DOCUMENT_ROOT'] . '');
+// define("URL", "http://" . $_SERVER['HTTP_HOST'] . '');
+
 require_once("fonction.php");
 ?>
